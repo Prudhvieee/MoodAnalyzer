@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Studies\\Bridgelabz\\Fellowship--.NET\\Project's\\MoodAnalyzer\\MoodAnalyzer\\MoodAnalyzer.csproj",
-      "projectName": "MoodAnalyzer",
-      "projectPath": "E:\\Studies\\Bridgelabz\\Fellowship--.NET\\Project's\\MoodAnalyzer\\MoodAnalyzer\\MoodAnalyzer.csproj",
+      "projectUniqueName": "E:\\Studies\\Bridgelabz\\Fellowship--.NET\\Project's\\MoodAnalyzer\\MoodAnalyzer\\MoodAnalyzerProblem.csproj",
+      "projectName": "MoodAnalyzerProblem",
+      "projectPath": "E:\\Studies\\Bridgelabz\\Fellowship--.NET\\Project's\\MoodAnalyzer\\MoodAnalyzer\\MoodAnalyzerProblem.csproj",
       "packagesPath": "C:\\Users\\Prudhvi\\.nuget\\packages\\",
       "outputPath": "E:\\Studies\\Bridgelabz\\Fellowship--.NET\\Project's\\MoodAnalyzer\\MoodAnalyzer\\obj\\",
       "projectStyle": "PackageReference",
