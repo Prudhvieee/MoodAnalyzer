@@ -1,0 +1,13 @@
+E:\Studies\Bridgelabz\Fellowship--.NET\Project's\MoodAnalyzer\MoodAnalyzer\bin\Debug\netcoreapp3.1\MoodAnalyzer.exe
+E:\Studies\Bridgelabz\Fellowship--.NET\Project's\MoodAnalyzer\MoodAnalyzer\bin\Debug\netcoreapp3.1\MoodAnalyzer.deps.json
+E:\Studies\Bridgelabz\Fellowship--.NET\Project's\MoodAnalyzer\MoodAnalyzer\bin\Debug\netcoreapp3.1\MoodAnalyzer.runtimeconfig.json
+E:\Studies\Bridgelabz\Fellowship--.NET\Project's\MoodAnalyzer\MoodAnalyzer\bin\Debug\netcoreapp3.1\MoodAnalyzer.runtimeconfig.dev.json
+E:\Studies\Bridgelabz\Fellowship--.NET\Project's\MoodAnalyzer\MoodAnalyzer\bin\Debug\netcoreapp3.1\MoodAnalyzer.dll
+E:\Studies\Bridgelabz\Fellowship--.NET\Project's\MoodAnalyzer\MoodAnalyzer\bin\Debug\netcoreapp3.1\MoodAnalyzer.pdb
+E:\Studies\Bridgelabz\Fellowship--.NET\Project's\MoodAnalyzer\MoodAnalyzer\obj\Debug\netcoreapp3.1\MoodAnalyzer.csprojAssemblyReference.cache
+E:\Studies\Bridgelabz\Fellowship--.NET\Project's\MoodAnalyzer\MoodAnalyzer\obj\Debug\netcoreapp3.1\MoodAnalyzer.AssemblyInfoInputs.cache
+E:\Studies\Bridgelabz\Fellowship--.NET\Project's\MoodAnalyzer\MoodAnalyzer\obj\Debug\netcoreapp3.1\MoodAnalyzer.AssemblyInfo.cs
+E:\Studies\Bridgelabz\Fellowship--.NET\Project's\MoodAnalyzer\MoodAnalyzer\obj\Debug\netcoreapp3.1\MoodAnalyzer.csproj.CoreCompileInputs.cache
+E:\Studies\Bridgelabz\Fellowship--.NET\Project's\MoodAnalyzer\MoodAnalyzer\obj\Debug\netcoreapp3.1\MoodAnalyzer.dll
+E:\Studies\Bridgelabz\Fellowship--.NET\Project's\MoodAnalyzer\MoodAnalyzer\obj\Debug\netcoreapp3.1\MoodAnalyzer.pdb
+E:\Studies\Bridgelabz\Fellowship--.NET\Project's\MoodAnalyzer\MoodAnalyzer\obj\Debug\netcoreapp3.1\MoodAnalyzer.genruntimeconfig.cache
