@@ -8,12 +8,14 @@ namespace MoodAnalyzerProblem
     {
         public enum ExceptionType
         {
-            EMPTY_MESSAGE, NULL_MESSAGE
+            EMPTY_MESSAGE, NULL_MESSAGE, NO_SUCH_CLASS, NO_SUCH_METHOD
         }
         private readonly ExceptionType type;
-        public MoodAnalyzerCustomException(ExceptionType type, string message):base(message)
+        readonly string message;
+        public MoodAnalyzerCustomException(ExceptionType type, string message) : base(message)
         {
             this.type = type;
+            this.message = message;
         }
     }
 }
