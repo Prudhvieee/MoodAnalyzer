@@ -144,11 +144,36 @@ namespace MoodAnalyzerTest_UC_4
             string expected = "Constructor is not Found";
             try
             {
-                object obj = MoodAnalyzerFactory.CreateMoodAnalyseUsingParameterizedConstructor("MoodAnalyser.MoodAnalyserMain", "sampleClass", "HAPPY");
+                object obj = MoodAnalyzerFactory.CreateMoodAnalyseUsingParameterizedConstructor("MoodAnalyzerProblem.MoodAnalyzer", "sampleClass", "HAPPY");
             }
             catch (MoodAnalyzerCustomException e)
             {
                 Assert.AreEqual(expected, e.Message);
+            }
+        }
+        /// <summary>
+        /// Test Case 6.1 Given Happy message using Reflection when proper should return HAPPY Mood
+        /// </summary>
+        [TestMethod]
+        public void GivenHappyMessageUsingReflection_WhenProper_ShouldReturnHappy()
+        {
+            string message = MoodAnalyzerFactory.InvokeMethod("MoodAnalyzerProblem.MoodAnalyzer", "GetMood", "HAPPY");
+            Assert.AreEqual("HAPPY", message);
+        }
+
+        /// <summary>
+        /// Test Case 6.2 Given Happy message when Improper method should throw MoodAnalyserException
+        /// </summary>
+        [TestMethod]
+        public void GivenHappyMessageUsingReflectionWhenImproperMethod_shouldThrowMoodAnayserException()
+        {
+            try
+            {
+                string message = MoodAnalyzerFactory.InvokeMethod("MoodAnalyzerProblem.MoodAnalyzer", "getMethod", "HAPPY");
+            }
+            catch (MoodAnalyzerCustomException e)
+            {
+                Assert.AreEqual(MoodAnalyzerCustomException.ExceptionType.NO_A_VALID_INPUT, e.Message);
             }
         }
     }

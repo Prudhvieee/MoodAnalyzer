@@ -59,5 +59,30 @@ namespace MoodAnalyzerProblem
                 throw new MoodAnalyzerCustomException(MoodAnalyzerCustomException.ExceptionType.NO_SUCH_CLASS, "Class not Found");
             }
         }
+        /// <summary>
+        /// UC6 Use Reflection to Invoke Method
+        /// </summary>
+        /// <param name="className"></param>
+        /// <param name="methodName"></param>
+        /// <param name="message"></param>
+        /// <returns></returns>
+        public static string InvokeMethod(string className, string methodName, string message)
+        {
+            Type type1 = typeof(MoodAnalyzer);
+            try
+            {
+                ConstructorInfo constructor = type1.GetConstructor(new[] { typeof(string) });
+                object obj = MoodAnalyzerFactory.CreateMoodAnalyseUsingParameterizedConstructor(className, methodName, message);
+                Assembly excutingAssambly = Assembly.GetExecutingAssembly();
+                Type type = excutingAssambly.GetType(className);
+                MethodInfo getMoodMethod = type.GetMethod(methodName);
+                string msg = (string)getMoodMethod.Invoke(obj, null);
+                return msg;
+            }
+            catch (Exception)
+            {
+                throw new MoodAnalyzerCustomException(MoodAnalyzerCustomException.ExceptionType.NO_A_VALID_INPUT, "No Such Method");
+            }
+        }
     }
 }
